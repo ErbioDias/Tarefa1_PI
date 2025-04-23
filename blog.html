@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog do ADS</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <h1 id="titulo-principal">Blog do ADS</h1>
+
+  <div id="leiaute-flex">
+    <nav>
+      <ul class="lista-de-links">
+        <li><a href="#box-model">Box Model</a></li>
+        <li><a href="#campos-modernos">Campos Modernos</a></li>
+        <li><a href="#form-busca">Formulários de Busca</a></li>
+        <li><a href="#destaques">Destaques</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="box-model">
+        <h2>Box Model</h2>
+       
+        <ul class="lista-de-links">
+            <li><a href="#" onclick="mostrarExplicacao('margin')">Margin</a></li>
+            <li><a href="#" onclick="mostrarExplicacao('border')">Border</a></li>
+            <li><a href="#" onclick="mostrarExplicacao('padding')">Padding</a></li>
+            <li><a href="#" onclick="mostrarExplicacao('content')">Content</a></li>
+          </ul>
+      </section>
+
+      <section id="campos-modernos">
+        <h2>Campos Modernos</h2>
+        <p class="justificado">Tipos modernos de campos HTML5.</p>
+      </section>
+
+      <section id="form-busca">
+        <h2>Formulários de Busca</h2>
+        <form>
+          <input type="search" placeholder="Buscar no blog...">
+          <button type="submit">Buscar</button>
+        </form>
+      </section>
+
+      <section id="destaques">
+        <h2>Destaques</h2>
+       
+        <div id="margem" class="explicacao">
+            <h3>Margem</h3>
+            <p>É o espaço externo ao elemento, separando-o dos elementos vizinhos.</p>
+          </div>
+  
+          <div id="borda" class="explicacao">
+            <h3>Borda</h3>
+            <p>É a linha que contorna o conteúdo e o preenchimento de um elemento.</p>
+          </div>
+  
+          <div id="preenchimento" class="explicacao">
+            <h3>Preenchimento</h3>
+            <p>É o espaço entre o conteúdo do elemento e sua borda.</p>
+          </div>
+  
+          <div id="conteudo" class="explicacao">
+            <h3>Conteúdo</h3>
+            <p>É o que o elemento realmente mostra: texto, imagem, etc.</p>
+          </div>
+      </section>
+    </main>
+
+    <aside>
+      <h2>Sobre</h2>
+      <p class="justificado">Este blog é mantido por alunos do curso de Análise e Desenvolvimento de Sistemas do IFPI.</p>
+    </aside>
+  </div>
+
+  <footer>
+    &copy; 2025 Blog do ADS
+    <p> Autor: Érbio Dias</p>
+  </footer>
+
+</body>
+</html>
